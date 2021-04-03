@@ -1,0 +1,34 @@
+Maximize: z = 5x1 + 4x2 
+Subject to:
+    6x1 + 4x2 <= 24
+	x1 + 2x2 <= 6
+    -x1 + x2 <= 1
+	x2 <= 2
+	
+Minimize: z = 5x1 - 10x2 
+Subject to:	
+    6x1 + 4x2 <= 24
+	x1 + 2x2 <= 6
+    -x1 + x2 <= 1
+	x2 <= 2
+
+Maximize: z = 4x1 + 2x2 
+Subject to:
+    6x1 + 4x2 <= 24
+	2x1 + 4x2 <= 12
+    x1 - x2 >= -1
+	x2 <= 1
+
+Maximize: z = 5x1 + 4x2 - 8x3 + 6x4 + 2x5
+Subject to:	
+    6x1 + 4x2 + 2x3 + 4x4 + 15x5 <= 60
+
+Maximize: z = 5x1 + 10x2
+Subject to:	
+    2x1 + 2x2 <= 8
+    x1 + 2x2 <= 5
+
+Maximize: z = 10x1 + x2
+Subject to:
+    2x1 - 5x2 <= 8
+	x1 <= 2
